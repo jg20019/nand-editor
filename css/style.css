@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* layout */
+
+.container {
+    display: flex;
+    margin: 1em;
+}
+
+.editor {
+    flex-grow: 4;
+}
+
+.editor textarea {
+    width: 100%;
+    min-height: 500px;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 20px;
+}
+
+.gates {
+    flex-grow: 1;
+}
+
+.gates h2 {
+    font-size: 24px;
+}
+
+.gates span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px;
+}
+
+.gates span:hover {
+    color: #aaa;
+}
